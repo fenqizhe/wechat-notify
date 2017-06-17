@@ -6,9 +6,9 @@ include "qywechat.class.php";
 //content 消息内容 消息发送通道(微信测试号) color 设置消息颜色
 $options = array(
   'token'=>'ysjqyweixin', //填写应用接口的Token
-  'encodingaeskey'=>'hRFRoEhX907NcS9aI7i6z6DevsOev4Jqo5XyPVxopMk', //填写加密用的EncodingAESKey
-  'appid'=>'wxd59f52724396c740', //填写高级调用功能的app id
-  'appsecret'=>'Sd2Ra4M8fd0uHJj4n1B4I_OC4tPjZ_PRE_yOeIzEWVY', //填写高级调用功能的密钥
+  'encodingaeskey'=>'', //填写加密用的EncodingAESKey
+  'appid'=>'', //填写高级调用功能的app id
+  'appsecret'=>'', //填写高级调用功能的密钥
   'agentid'=>'11', //应用的id
   'debug'=>true, //调试开关
   '_logcallback'=>'logg', //调试输出方法，需要有一个string类型的参数
