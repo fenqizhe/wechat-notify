@@ -9,8 +9,8 @@ include "wechat.class.php";
 $options = array(
 	'token'=>'tokenaccesskey', //填写你设定的key
 	'encodingaeskey'=>'encodingaeskey', //填写加密用的EncodingAESKey
-	'appid'=>'wxebec204c87514eef', //填写高级调用功能的app id, 请在微信开发模式后台查询
-	'appsecret'=>'17a5ce03cb22c9c1e3fdd45a25a8e128' //填写高级调用功能的密钥
+	'appid'=>'', //填写高级调用功能的app id, 请在微信开发模式后台查询
+	'appsecret'=>'' //填写高级调用功能的密钥
 	);
 	
 $weObj = new Wechat($options); //创建实例对象
